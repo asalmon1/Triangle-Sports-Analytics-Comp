@@ -1,0 +1,14 @@
+---
+title: "Triangle Sports Analytics Comp"
+output: html_document
+date: "2024-11-14"
+---
+
+```{r}
+library(dplyr)
+library(ncaahoopR)
+
+get_schedule("Duke", "2022-23") %>%
+  glimpse()
+```
+
